@@ -1,5 +1,7 @@
 def count_strings(array)
- array.count {|st| |st| == |st|.to_s}
+ array.count do |st| 
+ |st| == |st|.to_s
+ end
 
 def count_empty_strings(array)
   # Return the total number of EMPTY strings in the provided array using the count enumerable
